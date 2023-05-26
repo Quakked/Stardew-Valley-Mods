@@ -1,0 +1,69 @@
+<map>
+  <name>Beach</name>
+  <displayName>Beach</displayName>
+  <description>The beach with a new house.</description>
+  <springSheet>Maps\spring_objects</springSheet>
+  <summerSheet>Maps\summer_objects</summerSheet>
+  <fallSheet>Maps\fall_objects</fallSheet>
+  <winterSheet>Maps\winter_objects</winterSheet>
+  <town>Town</town>
+  <location>
+    <name>Beach</name>
+    <type>Beach</type>
+    <xTile>45</xTile>
+    <yTile>17</yTile>
+    <warp>
+      <X>26</X>
+      <Y>6</Y>
+      <TargetName>BeachHouse</TargetName>
+      <TargetX>2</TargetX>
+      <TargetY>2</TargetY>
+    </warp>
+  </location>
+  <locations>
+    <GameLocation xsi:type="BeachHouse">
+      <Name>BeachHouse</Name>
+      <NumberOfLevels>1</NumberOfLevels>
+      <setOutdoors>true</setOutdoors>
+      <location>
+        <X>2</X>
+        <Y>2</Y>
+        <Name>BeachHouse</Name>
+        <Objects>
+          <item>
+            <Key xsi:type="Vector2">
+              <X>5</X>
+              <Y>5</Y>
+            </Key>
+            <Value xsi:type="Object">
+              <name>BeachHouse</name>
+              <type>InteractiveObject</type>
+              <tileLocation>
+                <X>5</X>
+                <Y>5</Y>
+              </tileLocation>
+              <isHoedirt>false</isHoedirt>
+              <isSpawnedObject>false</isSpawnedObject>
+              <fragility>0</fragility>
+              <canBeGrabbed>false</canBeGrabbed>
+              <questItem>false</questItem>
+              <price>-300000</price>
+              <scale>
+                <X>1</X>
+                <Y>1</Y>
+              </scale>
+              <rotation>0</rotation>
+              <owner>Demetrius</owner>
+              <isTemp>false</isTemp>
+              <isRecipe>false</isRecipe>
+              <isLamp>false</isLamp>
+              <isLampLit>false</isLampLit>
+              <isOn>false</isOn>
+              <id>2684</id>
+            </Value>
+          </item>
+        </Objects>
+      </location>
+    </GameLocation>
+  </locations>
+</map>
